@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Source Serif Pro", serif;
+  background-color: #eee;
+}
+.container {
+  width: 1200px;
+  background-color: rgb(160, 204, 240);
+  margin: 0 auto;
+  padding: 20px;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid #eee;
+  float: left;
+
+  border-radius: 50%;
+}
+.text {
+  float: left;
+  padding: 30px;
+}
+h3 {
+  margin-top: 5px;
+}
+h3::first-letter {
+  font-size: 24px;
+  color: red;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #11999e;
+}
+
+.header-contact {
+  float: right;
+  padding: 30px;
+}
+.header-contact a {
+  text-decoration: none;
+}
+.header-contact a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.clear-div {
+  clear: both;
+}
+hr {
+  width: 100%;
+  border: 2px solid black;
+  margin: 20px auto;
+  border-bottom: none;
+}
+.main {
+  margin-top: 10px;
+}
+.content {
+  margin-bottom: 10px;
+}
+.left {
+  width: 30%;
+  float: left;
+}
+.right {
+  width: 70%;
+  float: left;
+}
+.common-hr {
+  width: 100%;
+  border: 1 px solid black;
+  border-bottom: none;
+  clear: both;
+  margin: 20px auto;
+}
+.edu-left {
+  width: 45%;
+  float: left;
+}
+.edu-right {
+  width: 45%;
+  float: right;
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  padding: 10px;
+}
+.footer p {
+  padding: 20px;
+}
